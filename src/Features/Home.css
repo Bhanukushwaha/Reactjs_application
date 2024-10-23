@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;           /* Aligns the items in a row */
+  gap: 10px;               /* Adds space between the button and h3 */
+}
+
+.header-container button {
+  padding: 8px 12px;       /* Add padding to the button */
+  cursor: pointer;
+  margin-left: 7px;        /* Change cursor on hover */
+}
+
+.header-container h3 {
+  margin: 0;
+  margin-left: 60vh;             /* Remove extra margin from h3 */
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 12px 20px 8px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 14px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 7px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
